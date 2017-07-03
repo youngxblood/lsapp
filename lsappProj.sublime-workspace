@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"btn-",
+				"btn-primary"
+			],
+			[
 				"ctype",
 				"ctype_alpha"
 			],
@@ -276,25 +280,41 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 384.0,
-		"last_filter": "instal",
+		"height": 368.0,
+		"last_filter": "packagesync",
 		"selected_items":
 		[
 			[
-				"instal",
-				"Package Control: Install Package"
+				"packagesync",
+				"PackageSync: Backup/Restore - Backup Packages To Zip (Recommended)"
+			],
+			[
+				"push",
+				"git: push"
 			],
 			[
 				"bra",
 				"git: branch"
 			],
 			[
-				"bran",
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"branch",
 				"git: branch"
 			],
 			[
-				"push",
-				"git: push"
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"bran",
+				"git: branch"
 			],
 			[
 				"pack",
@@ -303,10 +323,6 @@
 			[
 				"php",
 				"PHP CodeBeautifier"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
 			],
 			[
 				"place",
@@ -373,10 +389,6 @@
 				"Git: Custom Command"
 			],
 			[
-				"branch",
-				"Git: Change Branch"
-			],
-			[
 				"git: remote",
 				"git: remote add"
 			],
@@ -409,7 +421,7 @@
 				"Package Control: Disable Package"
 			]
 		],
-		"width": 366.0
+		"width": 568.0
 	},
 	"console":
 	{
@@ -434,9 +446,22 @@
 	},
 	"file_history":
 	[
-		"/C/xampp/htdocs/lsapp/resources/views/pages/about.blade.php",
-		"/C/xampp/htdocs/lsapp/resources/views/pages/index.blade.php",
 		"/C/xampp/htdocs/lsapp/resources/views/pages/services.blade.php",
+		"/C/xampp/htdocs/lsapp/resources/views/pages/index.blade.php",
+		"/C/xampp/htdocs/lsapp/resources/views/layouts/app.blade.php",
+		"/C/xampp/htdocs/lsapp/resources/views/inc/navbar.blade.php",
+		"/C/xampp/htdocs/lsapp/app/Http/Controllers/PostsController.php",
+		"/C/xampp/htdocs/lsapp/routes/web.php",
+		"/C/xampp/htdocs/lsapp/database/migrations/2017_07_03_162237_create_posts_table.php",
+		"/C/xampp/htdocs/lsapp/.env",
+		"/C/xampp/htdocs/lsapp/app/Providers/AppServiceProvider.php",
+		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/Terminal/Terminal.sublime-settings",
+		"/C/xampp/htdocs/lsapp/node_modules/less/test/css/import-reference.css",
+		"/C/xampp/htdocs/lsapp/app/Http/Controllers/PagesController.php",
+		"/C/xampp/htdocs/lsapp/resources/assets/sass/app.scss",
+		"/C/xampp/htdocs/lsapp/resources/assets/sass/_custom.scss",
+		"/C/xampp/htdocs/lsapp/resources/assets/sass/_variables.scss",
+		"/C/xampp/htdocs/lsapp/resources/views/pages/about.blade.php",
 		"/C/xampp/htdocs/Finance/view/layout/header.php",
 		"/C/xampp/htdocs/Finance/view/viewfinances.php",
 		"/C/xampp/htdocs/Finance/view/editfinances.php",
@@ -631,7 +656,7 @@
 	},
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 32.0
 	},
 	"input":
 	{
@@ -687,7 +712,7 @@
 	"pinned_build_system": "Packages/User/PHPproper.sublime-build",
 	"replace":
 	{
-		"height": 82.0
+		"height": 60.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -776,7 +801,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 294.0,
+	"side_bar_width": 233.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
