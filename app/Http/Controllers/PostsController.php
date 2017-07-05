@@ -41,6 +41,8 @@ class PostsController extends Controller
             'title' => 'required',
             'body' => 'required'
             ]);
+
+        return 123;
     }
 
     /**
