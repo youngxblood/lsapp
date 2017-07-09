@@ -6,10 +6,12 @@
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
                 <div class="panel-heading">Dashboard</div>
+                <h2>Hello, {{Auth::user()->name}}</h2>
 
                 <div class="panel-body">
-
+                    @if(Auth::user()->id == 1)
                     <a href="/posts/create" class="btn btn-primary">Create Post</a>
+                    @endif
                     <h3>Your Blog Posts.</h3>
                     @if(count($posts) > 0)
                     <table class="table table-striped">

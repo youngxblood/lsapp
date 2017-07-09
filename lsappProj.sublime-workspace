@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"fileName",
+				"fileNameToStore"
+			],
+			[
 				"btn-",
 				"btn-primary"
 			],
@@ -281,17 +285,9 @@
 	"command_palette":
 	{
 		"height": 384.0,
-		"last_filter": "install",
+		"last_filter": "push",
 		"selected_items":
 		[
-			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
-				"packagesync",
-				"PackageSync: Backup/Restore - Backup Packages To Zip (Recommended)"
-			],
 			[
 				"push",
 				"git: push"
@@ -299,6 +295,18 @@
 			[
 				"bra",
 				"git: branch"
+			],
+			[
+				"bran",
+				"git: branch"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"packagesync",
+				"PackageSync: Backup/Restore - Backup Packages To Zip (Recommended)"
 			],
 			[
 				"inst",
@@ -311,10 +319,6 @@
 			[
 				"instal",
 				"Package Control: Install Package"
-			],
-			[
-				"bran",
-				"git: branch"
 			],
 			[
 				"pack",
@@ -421,7 +425,7 @@
 				"Package Control: Disable Package"
 			]
 		],
-		"width": 864.0
+		"width": 568.0
 	},
 	"console":
 	{
@@ -446,9 +450,12 @@
 	},
 	"file_history":
 	[
+		"/C/xampp/htdocs/lsapp/resources/views/posts/edit.blade.php",
+		"/C/xampp/htdocs/lsapp/resources/views/posts/index.blade.php",
+		"/C/xampp/htdocs/lsapp/resources/views/posts/show.blade.php",
+		"/C/xampp/htdocs/lsapp/.gitignore",
 		"/C/xampp/htdocs/lsapp/resources/views/posts/create.blade.php",
 		"/C/xampp/htdocs/lsapp/database/migrations/2017_07_07_031616_add_cover_image_to_posts.php",
-		"/C/xampp/htdocs/lsapp/resources/views/posts/show.blade.php",
 		"/C/xampp/htdocs/lsapp/app/Http/Controllers/PostsController.php",
 		"/C/xampp/htdocs/lsapp/resources/views/pages/services.blade.php",
 		"/C/xampp/htdocs/lsapp/resources/views/pages/index.blade.php",
@@ -591,6 +598,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"guest",
 			"database.php",
 			"password",
 			"COOKIE",
@@ -804,7 +812,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 207.0,
+	"side_bar_width": 273.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

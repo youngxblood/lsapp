@@ -21,5 +21,10 @@
 
 {!! Form::close() !!}
 @endif
+<a href="/comments/create" class="btn btn-default">Comment</a>
 @endif
+<hr>
+<hr>
+<hr>
+
 @endsection
