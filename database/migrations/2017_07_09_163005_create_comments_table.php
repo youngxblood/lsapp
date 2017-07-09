@@ -20,6 +20,7 @@ class CreateCommentsTable extends Migration
             $table->timestamps('created_at');
             // $table->timestamps('updated_at');
             $table->integer('user_id');
+            $table->integer('post_id');
         });
 
     }

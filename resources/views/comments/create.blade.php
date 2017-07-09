@@ -8,10 +8,6 @@
 {{Form::label('body', 'Body')}}
     {{Form::textarea( 'body', '', ['id' => 'article-ckeditor','class' => 'form-control', 'placeholder' => 'Type your post here...'])}}
 </div>
-    {{Form::file('cover_image')}}
-<div class="form-group">
-
-</div>
 
 {{Form::submit('Submit', ['class' => 'btn btn-primary'])}}
 {!! Form::close() !!}

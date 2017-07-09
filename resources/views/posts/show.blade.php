@@ -21,7 +21,13 @@
 
 {!! Form::close() !!}
 @endif
-<a href="/comments/create" class="btn btn-default">Comment</a>
+
+
+{{-- <a href="/comments/create" class="btn btn-default">Comment</a> --}}
+{!! Form::open(['action' => ['CommentsController@create', $post->id], 'method' => 'POST' , 'class' => 'pull-right']) !!}
+{{Form::submit('Comment', ['class' => 'btn btn-default'])}}
+{!! Form::close() !!}
+
 @endif
 <hr>
 <hr>

@@ -10,3 +10,9 @@ class Comment extends Model
     public $primaryKey = 'id';
     public $timestamps = true;
 }
+
+public function comment()
+{
+    return $this->belongsTo('App\Post');
+}
+

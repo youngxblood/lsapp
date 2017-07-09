@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Comment;
+use App\Post;
 
 class CommentsController extends Controller
 {
@@ -13,10 +14,11 @@ class CommentsController extends Controller
         return view('pages.index')->with('title', $title);
     }
 
-        public function create()
+        public function create($id)
     {
-        // $post = Post::find($id);
-        return view("comments.create");
+
+        $post_id = $id;
+        return view("comments.create")->with('id', $post_id);
     }
 
     public function store(Request $request)
@@ -28,6 +30,7 @@ class CommentsController extends Controller
         $comment = new Comment;
         $comment->body = $request->input('body');
         $comment->user_id = $user_id;
+        $comment->comment_id = Post::find($id);
         $comment->save();
         return redirect('/posts')->with('success', 'Comment added.');
     }
