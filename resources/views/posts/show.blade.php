@@ -3,10 +3,13 @@
 @section('content')
 <a href="/posts" class="btn btn-default">Back</a>
 <h1>{{$post->title}}</h1>
-<img style="width: 100%;" src="/storage/cover_images/{{$post->cover_image}}">
-<br><br>
 
-<div>
+<img  width="350px" height="350px" style="width: 100%; height: auto;" src="/storage/cover_images/{{$post->cover_image}}">
+<br>
+<br>
+
+
+<div style="width: 100%; height: auto; overflow: hidden; word-wrap: break-word;" class="col-lg-8">
     {!! $post->body !!}
 </div>
 <hr><small>Written on: {{$post->created_at}} || Written by: {{$post->user->name}}</small>

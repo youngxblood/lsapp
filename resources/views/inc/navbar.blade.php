@@ -12,15 +12,11 @@
             </button>
 
             <!-- Branding Image -->
-            @if(Auth::guest())
+
             <a class="navbar-brand" href="{{ url('/') }}">
                 {{ config('app.name', 'Laravel') }}
             </a>
-            @else
-            <a class="navbar-brand" href="{{ url('/dashboard') }}">
-                {{ config('app.name', 'Laravel') }}
-            </a>
-            @endif
+
         </div>
 
         <div class="collapse navbar-collapse" id="app-navbar-collapse">
@@ -29,7 +25,6 @@
                 &nbsp;
             </ul>
             <ul class="nav navbar-nav">
-                <li><a href="/">Home</a></li>
                 <li><a href="/about">About</a></li>
                 <li><a href="/services">Services</a></li>
                 <li><a href="/posts">Blog</a></li>

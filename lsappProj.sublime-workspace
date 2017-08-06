@@ -4,8 +4,8 @@
 		"selected_items":
 		[
 			[
-				"fileName",
-				"fileNameToStore"
+				"col",
+				"col-lg-8"
 			],
 			[
 				"btn-",
@@ -114,10 +114,6 @@
 			[
 				"cal",
 				"class\tAttr"
-			],
-			[
-				"col",
-				"col-lg-4"
 			],
 			[
 				"get",
@@ -285,19 +281,11 @@
 	"command_palette":
 	{
 		"height": 384.0,
-		"last_filter": "push",
+		"last_filter": "br",
 		"selected_items":
 		[
 			[
-				"push",
-				"git: push"
-			],
-			[
-				"bra",
-				"git: branch"
-			],
-			[
-				"bran",
+				"br",
 				"git: branch"
 			],
 			[
@@ -307,6 +295,14 @@
 			[
 				"packagesync",
 				"PackageSync: Backup/Restore - Backup Packages To Zip (Recommended)"
+			],
+			[
+				"push",
+				"git: push"
+			],
+			[
+				"bra",
+				"git: branch"
 			],
 			[
 				"inst",
@@ -319,6 +315,10 @@
 			[
 				"instal",
 				"Package Control: Install Package"
+			],
+			[
+				"bran",
+				"git: branch"
 			],
 			[
 				"pack",
@@ -347,10 +347,6 @@
 			[
 				"package sync",
 				"PackageSync: Backup/Restore - Restore Packages From Folder"
-			],
-			[
-				"br",
-				"git: branch"
 			],
 			[
 				"gutter",
@@ -450,17 +446,15 @@
 	},
 	"file_history":
 	[
-		"/C/xampp/htdocs/lsapp/resources/views/posts/edit.blade.php",
 		"/C/xampp/htdocs/lsapp/resources/views/posts/index.blade.php",
-		"/C/xampp/htdocs/lsapp/resources/views/posts/show.blade.php",
-		"/C/xampp/htdocs/lsapp/.gitignore",
+		"/C/xampp/htdocs/lsapp/resources/views/pages/index.blade.php",
+		"/C/xampp/htdocs/lsapp/resources/views/inc/navbar.blade.php",
 		"/C/xampp/htdocs/lsapp/resources/views/posts/create.blade.php",
 		"/C/xampp/htdocs/lsapp/database/migrations/2017_07_07_031616_add_cover_image_to_posts.php",
+		"/C/xampp/htdocs/lsapp/resources/views/posts/show.blade.php",
 		"/C/xampp/htdocs/lsapp/app/Http/Controllers/PostsController.php",
 		"/C/xampp/htdocs/lsapp/resources/views/pages/services.blade.php",
-		"/C/xampp/htdocs/lsapp/resources/views/pages/index.blade.php",
 		"/C/xampp/htdocs/lsapp/resources/views/layouts/app.blade.php",
-		"/C/xampp/htdocs/lsapp/resources/views/inc/navbar.blade.php",
 		"/C/xampp/htdocs/lsapp/routes/web.php",
 		"/C/xampp/htdocs/lsapp/database/migrations/2017_07_03_162237_create_posts_table.php",
 		"/C/xampp/htdocs/lsapp/.env",
@@ -598,7 +592,6 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"guest",
 			"database.php",
 			"password",
 			"COOKIE",
@@ -682,11 +675,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -812,7 +812,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 273.0,
+	"side_bar_width": 262.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
